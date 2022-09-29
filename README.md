@@ -63,6 +63,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
   - Matlab for 3D visualization.
+  - Coding session.
+  - Q&A session.
 
 ### Week 8 (2022.10.27 Thur): Code Management
 - Lecturer: Prof. Yi-Xin Liu
