@@ -15,8 +15,8 @@ color: skyblue
 
 This is an introduction course to the first year undergraduates taught at Fudan University.
 
+- Course: _Road to Scientific Research: Powerful Computer Applications_ （XDSY118019.01）
 - Lecturers: Prof. Ping Tang, Prof. Yi-Xin Liu
-- Course: Introduction to Scientific Computing （XDSY118019.01）
 - Schedule: 18:30 - 21:05, Thursday
 - Classroom: H6104
 
@@ -24,8 +24,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ## Week 1 (2022.09.08 Thur): Introduction
 - Lecturer: Prof. Ping Tang
-- Materials: PPT.
-- Topics: introduction to the syllabus.
+- Topics
+  - introduction to the syllabus.
 
 ---
 
