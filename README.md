@@ -25,7 +25,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 1 (2022.09.08 Thur): Introduction
 - Lecturer: Prof. Ping Tang
 - Topics
-  - introduction to the syllabus.
+  - introduction to the syllabus
 
 ---
 
@@ -35,9 +35,9 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Jupyter notebook [01_python_basics.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/01_python_basics.ipynb).
 - Topics
   - What is programming?
-  - How to learn programming.
-  - Why Python?
-  - Keyword, literals, variables, operators, choice, control flow.
+  - How to learn programming
+  - Why [Python](https://www.python.org/)?
+  - Keyword, literals, variables, operators, control flow
 
 ---
 
@@ -46,8 +46,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/01_python_basics.ipynb).
 - Topics
-  - Data structures, function, class, module.
-  - Coding sessions.
+  - Data structures, function, class, module
+  - Coding sessions
 
 ---
 
@@ -56,23 +56,24 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/02_python_scientific_computing.ipynb).
 - Topics
-  - Numpy array.
-  - Linear algebra.
-  - Selected scientific computing topics.
-  - Coding sessions.
+  - [Numpy](https://numpy.org/) array
+  - Linear algebra in Numpy
+  - [SciPy](https://scipy.org/): selected scientific computing topics
+  - Coding sessions
 
 ---
 
 ## Week 5 (2022.10.08 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
+  - [Slides](week5.md)
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
   - Jupyter notebook [03_python_deep_learning.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/03_python_deep_learning.ipynb)
 - Topics
-  - Introduction to deep learning.
-  - Deep learning in Python with PyTorch.
-  - Coding session.
+  - Introduction to deep learning
+  - Deep learning in Python with [PyTorch](https://pytorch.org/)
+  - Coding session
 
 ---
 
@@ -82,8 +83,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - [slides for Matlab](week6_matlab.md)
   - [slides for Mathematica](week6_mathematica.md)
 - Topics
-  - Introduction to Matlab
-  - Symbolic computing in Mathematica
+  - Introduction to [Matlab](https://www.mathworks.com/products/matlab.html)
+  - Symbolic computing in [Mathematica](https://www.wolfram.com/mathematica/)
 
 ---
 
