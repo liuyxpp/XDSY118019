@@ -1,18 +1,35 @@
+---
+marp: true
+theme: default
+style: |
+    pre {
+        color: #303234;
+    }
+---
+
+<!--
+backgroundColor: #191a2e
+color: skyblue
+-->
 # Introduction to Scientific Computing
 
 This is an introduction course to the first year undergraduates taught at Fudan University.
 
-## Syllabus
+- Lecturers: Prof. Ping Tang, Prof. Yi-Xin Liu
 - Course: Introduction to Scientific Computing （XDSY118019.01）
 - Schedule: 18:30 - 21:05, Thursday
 - Classroom: H6104
 
-### Week 1 (2022.09.08 Thur): Introduction
+---
+
+## Week 1 (2022.09.08 Thur): Introduction
 - Lecturer: Prof. Ping Tang
 - Materials: PPT.
 - Topics: introduction to the syllabus.
 
-### Week 2 (2022.09.15 Thur): Python Basics Part 1
+---
+
+## Week 2 (2022.09.15 Thur): Python Basics Part 1
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/01_python_basics.ipynb).
@@ -22,17 +39,21 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Why Python?
   - Keyword, literals, variables, operators, choice, control flow.
 
-### Week 3 (2022.09.22 Thur): Python Basics Part 2
+---
+
+## Week 3 (2022.09.22 Thur): Python Basics Part 2
 - Lecturer： Prof. Yi-Xin Liu
-- Materials:
+- Materials
   - Jupyter notebook [01_python_basics.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/01_python_basics.ipynb).
 - Topics
   - Data structures, function, class, module.
   - Coding sessions.
 
-### Week 4 (2022.09.29 Thur): Scientific Computing in Python
+---
+
+## Week 4 (2022.09.29 Thur): Scientific Computing in Python
 - Lecturer: Prof. Yi-Xin Liu
-- Materials:
+- Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/02_python_scientific_computing.ipynb).
 - Topics
   - Numpy array.
@@ -40,10 +61,11 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Selected scientific computing topics.
   - Coding sessions.
 
-### Week 5 (2022.10.08 Sat): Introduction to Deep Learning
+---
+
+## Week 5 (2022.10.08 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
-- Materials:
-  - Neural network explained video: [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)
+- Materials
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
   - Jupyter notebook [03_python_deep_learning.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/03_python_deep_learning.ipynb)
@@ -52,13 +74,20 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Deep learning in Python with PyTorch.
   - Coding session.
 
+---
+
 ## Week 6 (2022.10.13 Thur): Matlab and Mathematica
 - Lecturer: Prof. Yi-Xin Liu
+- Materials
+  - [slides for Matlab](week6_matlab.md)
+  - [slides for Mathematica](week6_mathematica.md)
 - Topics
-  - Matlab Fundamentals
+  - Introduction to Matlab
   - Symbolic computing in Mathematica
 
-### Week 7 (2022.10.20 Thur): Plotting and Data Visualization
+---
+
+## Week 7 (2022.10.20 Thur): Plotting and Data Visualization
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
   - Jupyter notebook [04_python_plotting.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/04_python_plotting.ipynb)
@@ -68,20 +97,32 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Coding session.
   - Q&A session.
 
-### Week 8 (2022.10.27 Thur): Code Management
+---
+
+## Week 8 (2022.10.27 Thur): Code and Document Management
 - Lecturer: Prof. Yi-Xin Liu
+- Materials
+  - [Slides](week8.md)
 - Topics:
-  - git
-  - github.com
+  - [git](https://git-scm.com/)
+  - [github.com](https://github.com/)
   - Reproducible science
+  - Reference manager
 
-### Week 9 (2022.11.03 Thur): Research Tools
+---
+
+## Week 9 (2022.11.03 Thur): Research Tools
 - Lecturer: Prof. Yi-Xin Liu
+- Materials
+  - [Slides](week9.md)
 - Topics:
-  - Reference manager.
-  - Note taking: markdown & Obsidian.
-  - Publishing: LaTeX.
+  - [Markdown](https://daringfireball.net/projects/markdown/syntax)
+  - Note taking with [Obsidian](https://obsidian.md/)
+  - Slideshow with [Marp](https://yhatt.github.io/marp/)
+  - Publishing with [LaTeX](https://www.latex-project.org/)
 
-### Week 10 (2022.11.10 Thur): Q&A Session
+---
 
-### Week 11 (2022.11.17 Thur): Final Exam
+## Week 10 (2022.11.10 Thur): Q&A Session
+
+## Week 11 (2022.11.17 Thur): Final Exam
