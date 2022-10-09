@@ -80,8 +80,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 6 (2022.10.13 Thur): Matlab and Mathematica
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [slides for Matlab](week6_matlab.md)
-  - [slides for Mathematica](week6_mathematica.md)
+  - [Slides for Matlab](week6_matlab.md)
+  - [Slides for Mathematica](week6_mathematica.md)
 - Topics
   - Introduction to [Matlab](https://www.mathworks.com/products/matlab.html)
   - Symbolic computing in [Mathematica](https://www.wolfram.com/mathematica/)
@@ -91,6 +91,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 7 (2022.10.20 Thur): Plotting and Data Visualization
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
+  - [Slides](week7.md)
   - Jupyter notebook [04_python_plotting.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/04_python_plotting.ipynb)
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
