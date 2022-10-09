@@ -111,4 +111,4 @@ PyTorch is currently the most popular deep learning framework not only in Python
 
 ## A Simple Walkthrough
 
-Go to [04_python_plotting.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/04_python_plotting.ipynb).
+Go to [03_python_deep_learning.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/03_python_deep_learning.ipynb).
