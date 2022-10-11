@@ -40,20 +40,14 @@ Lecture date: 2022.10.13
     <source src="matlab2.mp4">
 </video>
 
+A more complete demonstration for new users with a concrete example can be found in this video: [MATLAB for New Users](https://youtu.be/Nw7r4i6Ixio).
+
 ---
 
 ## Learn the essentials of Matlab
 
-- Take a 2-hour course at [Matlab Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html).
+- Take a 2-hour course at [Matlab Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html). (Highly recommended!)
 - Take a 5-hour tutorial by Joseph Delgadillo at [The Complete MATLAB Course: Beginner to Advanced!](https://youtu.be/T_ekAD7U-wU).
-
----
-
-## Demo
-
-Go to:
-
-- [Online Matlab examples](https://www.mathworks.com/help/matlab/examples.html?category=getting-started-with-matlab&s_tid=CRUX_topnav)
 
 ---
 
@@ -65,3 +59,11 @@ Go to:
 
 - http://kms.fudan.edu.cn
 - Installation guide for Fudan students: http://kms.fudan.edu.cn/matlab/guide.pdf
+
+---
+
+## Demo
+
+Go to:
+
+- [Online Matlab examples](https://www.mathworks.com/help/matlab/examples.html?category=getting-started-with-matlab&s_tid=CRUX_topnav)
