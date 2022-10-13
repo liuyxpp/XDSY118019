@@ -66,7 +66,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 5 (2022.10.08 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [Slides](week5.md)
+  - [Slides](week5.html)
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
   - Jupyter notebook [03_python_deep_learning.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/03_python_deep_learning.ipynb)
@@ -80,8 +80,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 6 (2022.10.13 Thur): Matlab and Mathematica
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [Slides for Matlab](week6_matlab.md)
-  - [Slides for Mathematica](week6_mathematica.md)
+  - [Slides for Matlab](week6_matlab.html)
+  - [Slides for Mathematica](week6_mathematica.html)
 - Topics
   - Introduction to [Matlab](https://www.mathworks.com/products/matlab.html)
   - Symbolic computing in [Mathematica](https://www.wolfram.com/mathematica/)
@@ -91,7 +91,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 7 (2022.10.20 Thur): Plotting and Data Visualization
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
-  - [Slides](week7.md)
+  - [Slides](week7.html)
   - Jupyter notebook [04_python_plotting.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/04_python_plotting.ipynb)
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
@@ -104,7 +104,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 8 (2022.10.27 Thur): Code and Document Management
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [Slides](week8.md)
+  - [Slides](week8.html)
 - Topics:
   - [git](https://git-scm.com/)
   - [github.com](https://github.com/)
@@ -115,8 +115,8 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 ## Week 9 (2022.11.03 Thur): Research Tools
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [Slides for Markdown, Obsidian, and Marp](week9_markdown.md)
-  - [Slides for LaTeX](week9_latex.md)
+  - [Slides for Markdown, Obsidian, and Marp](week9_markdown.html)
+  - [Slides for LaTeX](week9_latex.html)
 - Topics:
   - [Markdown](https://daringfireball.net/projects/markdown/syntax)
   - Note taking with [Obsidian](https://obsidian.md/)
