@@ -28,7 +28,7 @@ Lecture date: 2022.10.20
 
 We will demonstrate how to produce publication quality figures using `matplotlib` and related packages.
 
-Please download the Jupyter notebook [04_python_plotting.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/04_python_plotting.ipynb) and follow the demonstration.
+Please download the Jupyter notebook [04_python_plotting.ipynb](../notebooks/04_python_plotting.ipynb) and follow the demonstration.
 
 ---
 
@@ -36,7 +36,7 @@ Please download the Jupyter notebook [04_python_plotting.ipynb](https://github.c
 
 We will demonstrate how to render images using `matplotlib` and related packages.
 
-Please download the Jupyter notebook [05_python_images.ipynb](https://github.com/liuyxpp/XDSY118019/blob/main/05_python_images.ipynb) and follow the demonstration.
+Please download the Jupyter notebook [05_python_images.ipynb](../notebooks/05_python_images.ipynb) and follow the demonstration.
 
 ---
 
@@ -143,4 +143,4 @@ B = 1.0 - A;
 visual3d_lyx(A, B, A*0, [0.8, 0.55, 0.5], [0.6, 0.6, 0.6], [1,1,1]);
 ```
 
-Here we use the homemade function `visual3d_lyx` to do all the visualization. The function is available as a [Matlab M file](https://github.com/liuyxpp/XDSY118019/blob/main/visual3d_lyx.m).
+Here we use the homemade function `visual3d_lyx` to do all the visualization. The function is available as a [Matlab M file](../scripts/visual3d_lyx.m).
