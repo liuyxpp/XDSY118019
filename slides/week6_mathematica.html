@@ -16,7 +16,7 @@
     color: #303234;
 }
 ;color:skyblue;background-color:#191a2e;background-image:none;">
-<h1>Symbolic Computing in Mathematica</h1>
+<h1>Symbolic Computation in Mathematica</h1>
 <p>An introduction to Mathematica by <a href="http://www.yxliu.group">Dr. Yi-Xin Liu</a> at Fudan University (<a href="mailto:lyx@fudan.edu.cn">lyx@fudan.edu.cn</a>).</p>
 <p>This is a part of the course: <em>Road to Scientific Research: Powerful Computer Applications</em> (XDSY118019.01).</p>
 <p>Lecture date: 2022.10.13</p>
@@ -24,7 +24,26 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-background-color="#191a2e" data-color="skyblue" data-paginate="true" data-theme="default" data-style="pre {
     color: #303234;
 }
-" data-marpit-pagination="2" data-marpit-pagination-total="5" style="--background-color:#191a2e;--color:skyblue;--paginate:true;--theme:default;--style:pre {
+" data-marpit-pagination="2" data-marpit-pagination-total="6" style="--background-color:#191a2e;--color:skyblue;--paginate:true;--theme:default;--style:pre {
+    color: #303234;
+}
+;color:skyblue;background-color:#191a2e;background-image:none;">
+<h2>Symbolic Computation vs. Numerical Computation</h2>
+<p><a href="https://en.wikipedia.org/wiki/Computer_algebra">Symbolic computation</a> is a scientific area that refers to the study and development of algorithms and software for manipulating mathematical expressions and other mathematical objects.</p>
+<ul>
+<li>Symbolic computation is <strong>EXACT</strong>.</li>
+<li>Numerical computation approximates results with floating point numbers.</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>3</mn><mn>9</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{3}{9}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">9</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> reduce to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> in symbolic computation.</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>3</mn><mn>9</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{3}{9}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">9</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> is approximated by a floating point number such as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.3333333333333333</mn></mrow><annotation encoding="application/x-tex">0.3333333333333333</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.3333333333333333</span></span></span></span> in numerical computation.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
+    color: #303234;
+}
+" style="--background-color:#191a2e;--color:skyblue;--theme:default;--style:pre {
     color: #303234;
 }
 ;color:skyblue;background-color:#191a2e;background-image:none;">
@@ -36,7 +55,7 @@
     <source src="mathematica_introduction.mp4" />
 </video>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
     color: #303234;
 }
 " style="--background-color:#191a2e;--color:skyblue;--theme:default;--style:pre {
@@ -51,7 +70,7 @@
     <source src="mathematica_notebook.mp4" />
 </video>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
     color: #303234;
 }
 " style="--background-color:#191a2e;--color:skyblue;--theme:default;--style:pre {
@@ -66,7 +85,7 @@
     <source src="mathematica_start.mp4" />
 </video>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-background-color="#191a2e" data-color="skyblue" data-theme="default" data-style="pre {
     color: #303234;
 }
 " style="--background-color:#191a2e;--color:skyblue;--theme:default;--style:pre {

@@ -11,7 +11,7 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Symbolic Computing in Mathematica
+# Symbolic Computation in Mathematica
 
 An introduction to Mathematica by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
@@ -22,6 +22,20 @@ Lecture date: 2022.10.13
 ---
 
 <!-- _paginate: true -->
+## Symbolic Computation vs. Numerical Computation
+
+[Symbolic computation](https://en.wikipedia.org/wiki/Computer_algebra) is a scientific area that refers to the study and development of algorithms and software for manipulating mathematical expressions and other mathematical objects.
+
+- Symbolic computation is **EXACT**.
+- Numerical computation approximates results with floating point numbers.
+
+Example:
+
+- $\frac{3}{9}$ reduce to $\frac{1}{3}$ in symbolic computation.
+- $\frac{3}{9}$ is approximated by a floating point number such as $0.3333333333333333$ in numerical computation.
+
+---
+
 ## What is Mathematica?
 
 - [Stephen Wolfram's Introduction to the Wolfram Language](https://youtu.be/_P9HqHVPeik) (12:55)
