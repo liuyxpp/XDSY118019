@@ -108,15 +108,15 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Topics:
   - [git](https://git-scm.com/)
   - [github.com](https://github.com/)
-  - Reproducible science
-  - Reference manager
+  - Reference managers: [Paperpile](https://paperpile.com/?welcome) and [Zotero](https://www.zotero.org/)
 
 ---
 
 ## Week 9 (2022.11.03 Thur): Research Tools
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
-  - [Slides](week9.md)
+  - [Slides for Markdown, Obsidian, and Marp](week9_markdown.md)
+  - [Slides for LaTeX](week9_latex.md)
 - Topics:
   - [Markdown](https://daringfireball.net/projects/markdown/syntax)
   - Note taking with [Obsidian](https://obsidian.md/)
