@@ -11,7 +11,7 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Research Tools: LaTeX
+# Documenting Tools: LaTeX
 
 An introduction to LaTeX by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 

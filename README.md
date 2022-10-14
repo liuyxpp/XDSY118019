@@ -112,7 +112,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 9 (2022.11.03 Thur): Research Tools
+## Week 9 (2022.11.03 Thur): Documenting Tools
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides for Markdown, Obsidian, and Marp](slides/week9_markdown.html)

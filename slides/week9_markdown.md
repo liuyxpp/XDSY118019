@@ -11,7 +11,7 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Research Tools: Markdown
+# Documenting Tools: Markdown
 
 An introduction to Markdown and related software by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
