@@ -45,6 +45,12 @@ mycode_20220606.py  mycode_20220707.py  mycode_20220808.py  ...
 
 ---
 
+## Or
+
+![](finaldoc.gif)
+
+---
+
 ### Failure of Manual Management
 
 Soon you will discover that the manual way to track the version of your code is:
@@ -60,6 +66,8 @@ It is also not scalable: when you have multiple files to track, the history of y
 
 - In modern days, we will use a version control system to do code and document management.
 - **Git** is the most popular version control system.
+
+![Git and GitHub](git.png)
 
 ---
 
@@ -78,15 +86,20 @@ It is also not scalable: when you have multiple files to track, the history of y
 - Installation
 - Configuration
 - Initializing a repo
-- Staging
-- Committing
+- Staging and committing
+- Status, log and checkout
 - Create a branch
+
+Learning material: [Git & GitHub Tutorial for Scientists](https://gitbookdown.dallasdatascience.com/index.html)
 
 ---
 
-### Installation and Configuration of Git
+### Git: Installation and Configuration
 
-- Installation: goto [the download page](https://www.git-scm.com/downloads) of git official website.
+- Installation
+  - MacOS: goto [the download page](https://www.git-scm.com/downloads) of git official website.
+  - Windows: goto [git for windows](https://github.com/git-for-windows/git) and download the latest version.
+  - After installation, check the version of git
 
 ```bash
 $ git --version
@@ -99,11 +112,14 @@ $ git config --global user.name "Yixin Liu"
 $ git config --global user.email "lyx@fudan.edu.cn"
 $ git config --global core.editor "code"
 $ git config --global -e
+
+$ git config --global core.autocrlf input  # Mac/Linux
+$ git config --global core.autocrlf true  # Windows
 ```
 
 ---
 
-### Usage of Git
+### Git: Initialization
 
 - Initializing a repository (repo)
 
@@ -111,6 +127,16 @@ $ git config --global -e
 $ cd ~/projects/gittest
 $ git init
 ```
+
+- Check the current status of git
+
+```bash
+$ git status
+```
+
+---
+
+### Git: Staging and Committing
 
 - Staging
 
@@ -125,10 +151,53 @@ $ git add README.md
 $ git ci -m "First commit."
 ```
 
-- Branching
+---
+
+### Git: Log and Checkout
+
+- List commit logs
+
+```bash
+$ git log
+$ git log --oneline
+```
+
+- Checkout a specific commit: in a state of "detached HEAD", use it carefully.
+
+```bash
+$ git checkout 8eb8716
+```
+
+- Checkout a commit using TAG
+
+```bash
+$ git tag
+$ git checkout v0.3.0
+```
+
+---
+
+### Git: Branching
+
+- Create and checkout new branch
 
 ```bash
 $ git checkout -b a_new_feature
+```
+
+- List all branches
+
+```bash
+$ git branch
+```
+
+- Switch among branches
+
+```bash
+$ git checkout master
+$ git branch
+$ git checkout a_new_feature
+$ git switch master
 ```
 
 ---
