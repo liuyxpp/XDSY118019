@@ -27,7 +27,7 @@ Lecture date: 2022.11.03
 [Markdown](https://daringfireball.net/projects/markdown/) is a **lightweight markup language** for creating formatted text using a **plain-text** editor.
 
 - John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is **appealing to human readers in its source code form**.
-- Its key design goal was **readability**, that the language be readable as-is, without looking like it has been marked up with tags or formatting instructions, unlike text formatted with ‘heavier’ markup languages, such as Rich Text Format (RTF), HTML, and XML.
+- Its key design goal was <span style="color:gold">readability</span>, that the language be readable as-is, without looking like it has been marked up with tags or formatting instructions, unlike text formatted with ‘heavier’ markup languages, such as Rich Text Format (RTF), HTML, and XML.
 - Markdown file often ends with extension `.md`.
 
 ---
@@ -52,10 +52,9 @@ Lecture date: 2022.11.03
 - Blockquote
 - Horizontal rules
 - Footnote
-- Blocks of code: GFM and other Markdown variants
-- Blocks of math expressions: GFM and other Markdown variants
-- Task lists: GFM and other Markdown variants
-- Table: GFM and other Markdown variants
+- Blocks of code*, Blocks of math expressions*, Task lists*, Table*
+
+*: GFM and other Markdown variants
 
 ---
 
@@ -78,13 +77,13 @@ Features of Obsidian:
 
 Obsidian is branded as
 
-> A second brain for you, forever.
+> <span style=color:gold>A second brain for you, forever.<span>
 
 ---
 
 ### Getting started with Obsidian
 
-- [Use Obsidian (BEST Markdown editor) for note taking and tech docs!](https://youtu.be/cBzc5r-FNW0) (23:01)
+- [Use Obsidian (BEST Markdown editor) for note taking and tech docs!](https://youtu.be/cBzc5r-FNW0) (17:55)
 
 <video height="500" controls>
     <source src="obsidian.mp4">
@@ -103,7 +102,7 @@ Obsidian is branded as
 
 [Marp](https://marp.app/) (also known as the Markdown Presentation Ecosystem) provides an intuitive experience for creating beautiful slide decks. You only have to focus on writing your story in a Markdown document.
 
-**All slides in this course are made using Marp!**
+<span style=color:gold>All slides in this course are made using Marp!</span>
 
 Features of Marp:
 

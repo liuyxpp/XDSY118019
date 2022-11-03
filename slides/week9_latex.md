@@ -24,10 +24,10 @@ Lecture date: 2022.11.03
 <!-- _paginate: true -->
 ## What is LaTeX?
 
-[LaTeX](https://www.latex-project.org/), which is pronounced «Lah-tech» or «Lay-tech», is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation.
+[LaTeX](https://www.latex-project.org/), which is pronounced /Lah-tech/ or /Lay-tech/, is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation.
 
-- LaTeX is the **de facto standard** for the communication and publication of scientific documents.
-- LaTeX is available as **free software**.
+- LaTeX is the <span style=color:gold>de facto standard</span> for the communication and publication of scientific documents.
+- LaTeX is available as <span style=color:gold>free software</span>.
 - LaTeX file ends with extension `.tex`.
 
 ---
@@ -36,9 +36,9 @@ Lecture date: 2022.11.03
 
 - Typesetting journal articles, technical reports, books, and slide presentations.
 - Control over large documents containing sectioning, cross-references, tables and figures.
-- Typesetting of complex mathematical formulas.
+- Typesetting of <span style=color:gold>complex mathematical formulas</span>.
 - Advanced typesetting of mathematics with AMS-LaTeX.
-- Automatic generation of bibliographies and indexes.
+- Automatic generation of <span style=color:gold>bibliographies</span> and indexes.
 - Multi-lingual typesetting.
 - Inclusion of artwork, and process or spot color.
 - Using PostScript or Metafont fonts.

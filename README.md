@@ -127,4 +127,14 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ## Week 10 (2022.11.10 Thur): Q&A Session
 
+---
+
 ## Week 11 (2022.11.17 Thur): Final Exam
+
+Step 1. Goto the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam) to see a list of problems.
+
+Step 2. Submit your solutions and related documents as a Pull Request to the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam).
+
+Deadline: 21:30, 2022.11.17
+
+<span style=color:gold>**Attention**: Making a Pull Request to a GitHub repo is part of the final exam. Fail to do so will FAIL the exam!</span>
