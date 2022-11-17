@@ -137,8 +137,8 @@ Step 2. Submit your solutions and related documents as a Pull Request to the rep
 
 Final exam problems can be also found below:
 
-- [Part 1: Project](exam/finalexam-part1.html)
-- [Part 2: Problems](exam/finalexam-part2.html)
+- [Part 1: Project](exam/finalexam-part1.pdf)
+- [Part 2: Problems](exam/finalexam-part2.pdf)
 
 Deadline: 21:30, 2022.11.17
 
