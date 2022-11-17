@@ -135,6 +135,11 @@ Step 1. Goto the repo [https://github.com/liuyxpp/XDSY118019-exam](https://githu
 
 Step 2. Submit your solutions and related documents as a Pull Request to the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam).
 
+Final exam problems can be also found below:
+
+- [Part 1: Project](exam/finalexam-part1.html)
+- [Part 2: Problems](exam/finalexam-part2.html)
+
 Deadline: 21:30, 2022.11.17
 
 <span style=color:gold>**Attention**: Making a Pull Request to a GitHub repo is part of the final exam. Fail to do so will FAIL the exam!</span>
