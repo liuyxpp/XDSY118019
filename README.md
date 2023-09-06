@@ -16,20 +16,20 @@ color: skyblue
 This is an introduction course to the first year undergraduates taught at Fudan University.
 
 - Course: _Road to Scientific Research: Powerful Computer Applications_ （XDSY118019.01）
-- Lecturers: Prof. Ping Tang, Prof. Yi-Xin Liu
+- Lecturers: Prof. Yi-Xin Liu
 - Schedule: 18:30 - 21:05, Thursday
-- Classroom: H6104
+- Classroom: H6209
 
 ---
 
-## Week 1 (2022.09.08 Thur): Introduction
-- Lecturer: Prof. Ping Tang
+## Week 1 (2023.09.07 Thur): Introduction
+- Lecturer: Prof. Yi-Xin Liu
 - Topics
   - introduction to the syllabus
 
 ---
 
-## Week 2 (2022.09.15 Thur): Python Basics Part 1
+## Week 2 (2023.09.14 Thur): Python Basics Part 1
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
@@ -41,7 +41,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 3 (2022.09.22 Thur): Python Basics Part 2
+## Week 3 (2023.09.21 Thur): Python Basics Part 2
 - Lecturer： Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
@@ -51,7 +51,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 4 (2022.09.29 Thur): Scientific Computing in Python
+## Week 4 (2023.09.28 Thur): Scientific Computing in Python
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](notebooks/02_python_scientific_computing.ipynb).
@@ -63,6 +63,9 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
+To be added ...
+
+<!--
 ## Week 5 (2022.10.08 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
