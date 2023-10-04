@@ -63,10 +63,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-To be added ...
-
-<!--
-## Week 5 (2022.10.08 Sat): Introduction to Deep Learning
+## Week 5 (2023.10.07 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides](slides/week5.html)
@@ -80,7 +77,7 @@ To be added ...
 
 ---
 
-## Week 6 (2022.10.13 Thur): Matlab and Mathematica
+## Week 6 (2023.10.12 Thur): Matlab and Mathematica
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides for Matlab](slides/week6_matlab.html)
@@ -91,7 +88,7 @@ To be added ...
 
 ---
 
-## Week 7 (2022.10.20 Thur): Plotting and Data Visualization
+## Week 7 (2023.10.19 Thur): Plotting and Data Visualization
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
   - [Slides](slides/week7.html)
@@ -104,6 +101,9 @@ To be added ...
 
 ---
 
+To be added ...
+
+<!--
 ## Week 8 (2022.10.27 Thur): Code and Document Management
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
