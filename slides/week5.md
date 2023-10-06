@@ -86,7 +86,10 @@ Do the following experiments in [A neural network playgound](http://playground.t
 
 ### Why PyTorch?
 
-PyTorch is currently the most popular deep learning framework not only in Python but all programming languages. See the overall trend for PyTorch and other competitors (TensorFlow, JAX, MxNet, Caffe2, MindSpore, etc.) [here](https://paperswithcode.com/trends).
+PyTorch is currently the most popular deep learning framework not only in Python but all programming languages.
+
+- See the overall trend for PyTorch and other competitors (TensorFlow, JAX, MxNet, Caffe2, MindSpore, etc.) [here](https://paperswithcode.com/trends).
+- Watch the video for the current state of machine learning frameworks [here](https://youtu.be/XGtiCBz2gIg?si=Inth6FVkUQlooN4c).
 
 ---
 
