@@ -18,7 +18,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Course: _Road to Scientific Research: Powerful Computer Applications_ （XDSY118019.01）
 - Lecturers: Prof. Yi-Xin Liu
 - Schedule: 18:30 - 21:05, Thursday
-- Classroom: H6209
+- Classroom: H2210
 
 ---
 
@@ -101,7 +101,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-To be added ...
+TBA
 
 <!--
 ## Week 8 (2022.10.27 Thur): Code and Document Management
