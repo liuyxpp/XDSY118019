@@ -11,7 +11,7 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Introduction to Deep Learning in Python
+# Week 5: Introduction to Deep Learning in Python
 
 An introduction to deep learning in Python by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 

@@ -92,7 +92,9 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
   - [Slides](slides/week7.html)
-  - Jupyter notebook [04_python_plotting.ipynb](notebooks/04_python_plotting.ipynb)
+  - Jupyter notebook: [04_python_plotting.ipynb](notebooks/04_python_plotting.ipynb)
+  - Jupyter notebook: [05_python_images.ipynb](notebooks/05_python_images.ipynb)
+  - Matlab script: [Rendering volume](scripts/visual3d_lyx.m)
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
   - Matlab for 3D visualization.
