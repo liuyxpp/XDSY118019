@@ -17,7 +17,7 @@ An introduction to Markdown and related software by [Dr. Yi-Xin Liu](http://www.
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2022.11.03
+Lecture date: 2023.11.02
 
 ---
 

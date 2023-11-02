@@ -98,15 +98,11 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
   - Matlab for 3D visualization.
-  - Coding session.
-  - Q&A session.
+  - Coding session
 
 ---
 
-TBA
-
-<!--
-## Week 8 (2022.10.27 Thur): Code and Document Management
+## Week 8 (2023.10.26 Thur): Code and Document Management
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides](slides/week8.html)
@@ -117,7 +113,7 @@ TBA
 
 ---
 
-## Week 9 (2022.11.03 Thur): Documenting Tools
+## Week 9 (2023.11.02 Thur): Documenting Tools
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides for Markdown, Obsidian, and Marp](slides/week9_markdown.html)
@@ -130,10 +126,13 @@ TBA
 
 ---
 
-## Week 10 (2022.11.10 Thur): Q&A Session
+## Week 10 (2023.11.09 Thur): Q&A Session
 
 ---
 
+TBA
+
+<!--
 ## Week 11 (2022.11.17 Thur): Final Exam
 
 Step 1. Goto the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam) to see a list of problems.
