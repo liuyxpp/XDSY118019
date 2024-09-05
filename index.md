@@ -17,19 +17,20 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 - Course: _Road to Scientific Research: Powerful Computer Applications_ （XDSY118019.01）
 - Lecturers: Prof. Yi-Xin Liu
-- Schedule: 18:30 - 21:05, Thursday
-- Classroom: H2210
+- Schedule: <span style=color:gold>18:30 - 21:05, Thursday</span>
+- Classroom: <span style=color:gold>H2205</span>
 
 ---
 
-## Week 1 (2023.09.07 Thur): Introduction
+## Week 1 (2024.09.05 Thur): Introduction
 - Lecturer: Prof. Yi-Xin Liu
 - Topics
-  - introduction to the syllabus
+  - Introduction to the syllabus
+  - Setup working environment
 
 ---
 
-## Week 2 (2023.09.14 Thur): Python Basics Part 1
+## Week 2 (2024.09.12 Thur): Python Basics Part 1
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
@@ -41,7 +42,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 3 (2023.09.21 Thur): Python Basics Part 2
+## Week 3 (2024.09.19 Thur): Python Basics Part 2
 - Lecturer： Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
@@ -51,7 +52,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 4 (2023.09.28 Thur): Scientific Computing in Python
+## Week 4 (2024.09.26 Thur): Scientific Computing in Python
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](notebooks/02_python_scientific_computing.ipynb).
@@ -63,7 +64,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 5 (2023.10.07 Sat): Introduction to Deep Learning
+## Week 5 (2024.10.10 Sat): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides](slides/week5.html)
@@ -77,7 +78,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 6 (2023.10.12 Thur): Matlab and Mathematica
+## Week 6 (2024.10.17 Thur): Matlab and Mathematica
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides for Matlab](slides/week6_matlab.html)
@@ -88,7 +89,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 7 (2023.10.19 Thur): Plotting and Data Visualization
+## Week 7 (2024.10.24 Thur): Plotting and Data Visualization
 - Lecturer: Prof. Yi-Xin Liu
 - Materials:
   - [Slides](slides/week7.html)
@@ -102,7 +103,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 8 (2023.10.26 Thur): Code and Document Management
+## Week 8 (2024.10.31 Thur): Code and Document Management
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides](slides/week8.html)
@@ -113,7 +114,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 9 (2023.11.02 Thur): Documenting Tools
+## Week 9 (2024.11.07 Thur): Documenting Tools
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides for Markdown, Obsidian, and Marp](slides/week9_markdown.html)
@@ -122,19 +123,22 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - [Markdown](https://daringfireball.net/projects/markdown/syntax)
   - Note taking with [Obsidian](https://obsidian.md/)
   - Slideshow with [Marp](https://yhatt.github.io/marp/)
+  - Scientific notebooks with [Quarto](https://quarto.org/)
   - Publishing with [LaTeX](https://www.latex-project.org/)
 
 ---
 
-## Week 10 (2023.11.09 Thur): Q&A Session
+## Week 10 (2024.11.14 Thur)
+
+Q&A Session
 
 ---
+
+## Week 11 (2024.11.21 Thur): Final Exam
 
 TBA
 
 <!--
-## Week 11 (2022.11.17 Thur): Final Exam
-
 Step 1. Goto the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam) to see a list of problems.
 
 Step 2. Submit your solutions and related documents as a Pull Request to the repo [https://github.com/liuyxpp/XDSY118019-exam](https://github.com/liuyxpp/XDSY118019-exam).

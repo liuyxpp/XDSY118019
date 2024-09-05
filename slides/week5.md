@@ -77,8 +77,8 @@ Lecture date: 2023.10.07
 Do the following experiments in [A neural network playgound](http://playground.tensorflow.org/) (http://playground.tensorflow.org/):
 
 - Choose `Gaussian` data, use `linear` activation function to train.
-- Choose `Circle` data, use `linear` activation function to train. Does it succeed? How to obtain a sucessful training?
-- (Optional) Choose `Spiral` data, find a sucessful classification neural network model.
+- Choose `Circle` data, use `linear` activation function to train. Does it succeed? How to obtain a successful training?
+- (Optional) Choose `Spiral` data, find a successful classification neural network model.
 
 ---
 
