@@ -6,7 +6,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Lecturers: Prof. Yi-Xin Liu
 - Schedule: 18:30 - 21:05, Thursday
 - Weeks: 11
-- Classroom: H6104 (2022), H2210 (2023)
+- Classroom: H2205 (2024), H2210 (2023), H6104 (2022)
 
 ## Editor
 
@@ -26,8 +26,8 @@ To render the slides, you need to install Marp for VS Code. Then, open the markd
 
 ## Jupyter Notebook Preparation
 
-Jupyter notebook is used to prepare the course materials. The notebooks are written in the `notebooks` folder.
+Jupyter notebook is used to prepare most of the course materials. The notebooks are stored in the `notebooks` folder.
 
 ## Version Control
 
-Git is used for version control. The repository is hosted on GitHub. The repository is public. The students are also encouraged to use GitHub to host their own projects.
+Git is used for version control. Course materials are hosted on GitHub as a public repository. The students are also encouraged to use GitHub to host their own projects.
