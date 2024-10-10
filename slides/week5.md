@@ -118,7 +118,9 @@ Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb
 
 ---
 
-## Popular Resources for Deep Learning
+## More Resources for Machine Learning
+
+[Why Biological Neurons Are Deep Neural Networks (Youtube Video)](https://youtu.be/hmtQPrH-gC4?si=IJCwsAmA9wP9axAz)
 
 ### General Machine Learning
 
