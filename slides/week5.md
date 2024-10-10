@@ -120,9 +120,14 @@ Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb
 
 ## Popular Resources for Deep Learning
 
+### General Machine Learning
+
 - [scikit-learn](https://scikit-learn.org/stable/): Machine learning in Python
 - Gradient Boost: [XGBoost](https://xgboost.ai/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), [CatBoost](https://catboost.ai/)
 - [Kaggle](https://www.kaggle.com/): Largest AI & ML community, competitions, datasets, notebooks, etc.
 - [Hugging Face](https://huggingface.co/): AI community for ML models and datasets
+
+### LLM
+- [Transformer](https://youtu.be/nzqlFIcCSWQ?si=biww-1EvnNC-OWrA)
 - [Ollama](https://ollama.com/): open-source machine learning models
 - [ChatGPT](https://chatgpt.com/): AI-powered chatbot by OpenAI
