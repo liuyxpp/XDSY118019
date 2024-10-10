@@ -104,7 +104,7 @@ PyTorch is currently the most popular deep learning framework not only in Python
 
 ---
 
-## Additional Resources
+## Additional Resources for PyTorch
 
 - [PyTorch Beginner Series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
 - [Youtube: Learn PyTorch for deep learning in a day. Literally.](https://youtu.be/Z_ikDlimN6A)
@@ -115,3 +115,14 @@ PyTorch is currently the most popular deep learning framework not only in Python
 ## A Simple Walkthrough
 
 Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb).
+
+---
+
+## Popular Resources for Deep Learning
+
+- [scikit-learn](https://scikit-learn.org/stable/): Machine learning in Python
+- Gradient Boost: [XGBoost](https://xgboost.ai/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), [CatBoost](https://catboost.ai/)
+- [Kaggle](https://www.kaggle.com/): Largest AI & ML community, competitions, datasets, notebooks, etc.
+- [Hugging Face](https://huggingface.co/): AI community for ML models and datasets
+- [Ollama](https://ollama.com/): open-source machine learning models
+- [ChatGPT](https://chatgpt.com/): AI-powered chatbot by OpenAI
