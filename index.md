@@ -64,7 +64,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 5 (2024.10.10 Sat): Introduction to Deep Learning
+## Week 5 (2024.10.10 Thur): Introduction to Deep Learning
 - Lecturer: Prof. Yi-Xin Liu
 - Materials
   - [Slides](slides/week5.html)

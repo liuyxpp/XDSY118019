@@ -17,7 +17,7 @@ An introduction to deep learning in Python by [Dr. Yi-Xin Liu](http://www.yxliu.
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.10.07
+Lecture date: 2024.10.10
 
 ---
 
