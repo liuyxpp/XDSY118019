@@ -17,7 +17,7 @@ An introduction to Matlab by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan U
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.10.12
+Lecture date: 2024.10.17
 
 ---
 

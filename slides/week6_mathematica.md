@@ -17,7 +17,7 @@ An introduction to Mathematica by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fu
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.10.12
+Lecture date: 2024.10.17
 
 ---
 
@@ -32,7 +32,7 @@ Lecture date: 2023.10.12
 Example:
 
 - $\frac{3}{9}$ reduce to $\frac{1}{3}$ in symbolic computation.
-- $\frac{3}{9}$ is approximated by a floating point number such as $0.3333333333333333$ in numerical computation.
+- $\frac{3}{9}$ is approximated by a **floating point number** such as $0.3333333333333333$ in numerical computation.
 
 ---
 
