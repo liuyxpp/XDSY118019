@@ -17,7 +17,7 @@ An introduction to plotting and data visualization by [Dr. Yi-Xin Liu](http://ww
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.10.19
+Lecture date: 2024.10.24
 
 ---
 
