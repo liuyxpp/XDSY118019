@@ -11,13 +11,13 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Documenting Tools: LaTeX
+# Documenting Tools: LaTeX & Typst
 
 An introduction to LaTeX by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.11.02
+Lecture date: 2024.11.07
 
 ---
 
@@ -66,3 +66,52 @@ Other videos in [this Youtube playlist](https://youtube.com/playlist?list=PLHXZ9
   - Citations
 
 In fact, LaTeX can be edited in any editors. You can use VS Code + LaTeX extensions to do the job. Do not forget to install a suitable [LaTeX distribution](https://www.latex-project.org/get/#tex-distributions) for your OS though.
+
+---
+
+## Typst
+
+[Typst](https://typst.app/) is a new markup-based typesetting system for the <span style=color:gold>sciences</span>. It is designed to be an alternative both to advanced tools like LaTeX and simpler tools like Word and Google Docs. The goal of Typst is to build a typesetting tool that is highly capable and a pleasure to use.
+
+<video height="500" controls>
+    <source src="typst.webm">
+</video>
+
+---
+
+### Why Typst?
+
+As compared to LaTeX, it
+
+- is easy to learn and use.
+- previews your changes instantly.
+- provides clear, understandable error messages.
+- has a consistent styling system for configuring everything from fonts and margins to the look of headings and lists.
+- uses familiar programming constructs instead of hard-to-understand macros.
+- has a very small executable size.
+- is free and open source.
+
+---
+
+### Getting started with Typst
+
+- [Tutorial](https://typst.app/docs/tutorial/)
+
+Inline math equations:
+
+```typst
+$lim_(x->oo) 1/x = 0$
+```
+
+Block math equations:
+
+```typst
+$ lim_(x->oo) 1/x = 0 $
+```
+
+---
+
+### Demo and exercises of Typst
+
+- Install VS Code extension: `Tinymist Typst`.
+- Or go to the webapp (sign up required): [https://typst.app/](https://typst.app/).

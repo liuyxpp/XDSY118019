@@ -17,7 +17,7 @@ An introduction to code and document management by [Dr. Yi-Xin Liu](http://www.y
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2023.10.26
+Lecture date: 2024.10.31
 
 ---
 
@@ -94,44 +94,63 @@ Learning material: [Git & GitHub Tutorial for Scientists](https://gitbookdown.da
 
 ---
 
-### Git: Installation and Configuration
+### Git: Installation
 
-- Installation
-  - MacOS: goto [the download page](https://www.git-scm.com/downloads) of git official website.
-  - Windows: goto [git for windows](https://github.com/git-for-windows/git) and download the latest version.
-  - After installation, check the version of git
+- MacOS: goto [the download page](https://www.git-scm.com/downloads) of git official website.
+- Windows: goto [git for windows](https://github.com/git-for-windows/git) and download the latest version.
+- After installation, check the version of git
 
 ```bash
 $ git --version
 ```
 
-- Configuration
+---
+
+### Git: Configuration
+
+- Configure via command line:
 
 ```bash
 $ git config --global user.name "Yixin Liu"
 $ git config --global user.email "lyx@fudan.edu.cn"
 $ git config --global core.editor "code"
-$ git config --global -e
-
 $ git config --global core.autocrlf input  # Mac/Linux
 $ git config --global core.autocrlf true  # Windows
+```
+
+- Edit config file manually:
+
+```bash
+$ git config --global -e
+# or
+$ code ~/.gitconfig
 ```
 
 ---
 
 ### Git: Initialization
 
-- Initializing a repository (repo)
+- Create a new Git repository (repo)
 
 ```bash
 $ cd ~/projects/gittest
 $ git init
 ```
 
+---
+
+### Git: Status and Diff
+
 - Check the current status of git
 
 ```bash
 $ git status
+```
+
+- Check what have been modified in a file:
+
+```bash
+$ git diff README.md
 ```
 
 ---
@@ -202,6 +221,17 @@ $ git switch master
 
 ---
 
+### Git: Merging
+
+- Merge a branch to master
+
+```bash
+$ git checkout master
+$ git merge a_new_feature
+```
+
+---
+
 ### Github.com
 
 The main purpose of [GitHub.com](https://github.com/) is to facilitate the version control and issue tracking aspects of software development.
@@ -246,6 +276,30 @@ Check out a list of [reference managers and a comparison of them](https://en.wik
 
 ---
 
+### Zotero
+
+[Zotero](https://www.zotero.org/) is, at the most basic level, a reference manager. It is designed to store, manage, and cite bibliographic references, such as books and articles. In Zotero, each of these references constitutes an item. More broadly, Zotero is a powerful tool for collecting and organizing research information and sources.
+
+Note: Zotero is free.
+
+</br>
+
+**Demonstration:** go to [Zotero](https://www.zotero.org/) and [install Zotero](https://www.zotero.org/download/) to your computer.
+
+---
+
+### Mendeley
+
+[Mendeley](https://www.mendeley.com/) is a free reference manager that can help you store, organize, note, share and cite references and research data.
+
+Note: Zotero is free.
+
+</br>
+
+**Demonstration:** go to [Mendeley](https://www.mendeley.com/) and [install Mendeley](https://www.mendeley.com/downloads) to your computer.
+
+---
+
 ### Paperpile
 
 [Paperpile](https://paperpile.com/?welcome) is a online software for no-fuss reference management on the web. Paperpile enable us manage our research library right in the browser:
@@ -259,15 +313,3 @@ Note: Paperpile is not free.
 </br>
 
 **Demonstration:** go to [Paperpile](https://paperpile.com/?welcome).
-
----
-
-### Zotero
-
-[Zotero](https://www.zotero.org/) is, at the most basic level, a reference manager. It is designed to store, manage, and cite bibliographic references, such as books and articles. In Zotero, each of these references constitutes an item. More broadly, Zotero is a powerful tool for collecting and organizing research information and sources.
-
-Note: Zotero is free.
-
-</br>
-
-**Demonstration:** go to [Zotero](https://www.zotero.org/) and [install Zotero](https://www.zotero.org/download/) to your computer.
