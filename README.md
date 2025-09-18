@@ -6,7 +6,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 - Lecturers: Prof. Yi-Xin Liu
 - Schedule: 18:30 - 21:05, Thursday
 - Weeks: 11
-- Classroom: H2205 (2024), H2210 (2023), H6104 (2022)
+- Classroom: H2112A (2025), H2205 (2024), H2210 (2023), H6104 (2022)
 
 ## Editor
 
