@@ -71,6 +71,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
   - Jupyter notebook [03_python_deep_learning.ipynb](notebooks/03_python_deep_learning.ipynb)
+  - Jupyter notebook [catboost_tutorial.ipynb](notebooks/catboost_tutorial.ipynb)
 - Topics
   - Introduction to deep learning
   - Deep learning in Python with [PyTorch](https://pytorch.org/)
@@ -148,6 +149,6 @@ Final exam problems can be also found below:
 - [Part 1: Project](exam/finalexam-part1.pdf)
 - [Part 2: Problems](exam/finalexam-part2.pdf)
 
-Deadline: 21:30, 2022.11.17
+Deadline: 21:30, 2025.11.27
 
 <span style=color:gold>**Attention**: Making a Pull Request to a GitHub repo is part of the final exam. Fail to do so will FAIL the exam!</span>
