@@ -17,7 +17,7 @@ An introduction to Mathematica by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fu
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2024.10.17
+Lecture date: 2025.10.23
 
 ---
 
@@ -53,7 +53,7 @@ Example:
 <video height="500" controls>
     <source src="mathematica_notebook.mp4">
 </video>
- 
+
 ---
 
 ## Get Started with Mathematica
@@ -73,6 +73,7 @@ Go to [Wolfram Cloud](https://www.wolframcloud.com), and solve the following pro
 1. Given $(x + y + z)^{20}$, find the coefficient of the term $x^4y^{13}z^3$.
    1. Method 1: expand the expression and eyeball the coefficient.
    2. Method 2: google a clever way, use searching keywords such as _mathematica find the coefficient of a term from expansion_.
+   3. Method 3: ask an LLM see whether it can do it.
 2. Solve $3x^3 - 2x + 1 = 0$.
 3. $\int \frac{1}{a + bx^3} dx$ for real $a$ and $b$.
 4. Integrate $\int_0^{\infty} t^{z-1}e^{-t} dt$ for $z=0, \frac{1}{2}, 1, \frac{3}{2}, 2$.

@@ -17,7 +17,7 @@ An introduction to Matlab by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan U
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2024.10.17
+Lecture date: 2025.10.23
 
 ---
 
@@ -26,7 +26,7 @@ Lecture date: 2024.10.17
 
 - [What is Matlab?](https://youtu.be/joilU9m-sNk) (length: 1:37)
 
-<video height="500" controls>
+<video height="450" controls>
     <source src="matlab1.mp4">
 </video>
 
@@ -36,7 +36,7 @@ Lecture date: 2024.10.17
 
 - [Getting Started with MATLAB](https://youtu.be/OHxR8iMHDWw) (length: 10:00)
 
-<video height="500" controls>
+<video height="450" controls>
     <source src="matlab2.mp4">
 </video>
 
@@ -46,6 +46,7 @@ A more complete demonstration for new users with a concrete example can be found
 
 ## Learn the essentials of Matlab
 
+- [Official Tutorials](https://www.mathworks.com/tutorials)
 - Take a 2-hour course at [Matlab Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html). (Highly recommended!)
 - Take a 5-hour tutorial by Joseph Delgadillo at [The Complete MATLAB Course: Beginner to Advanced!](https://youtu.be/T_ekAD7U-wU).
 
@@ -57,8 +58,7 @@ Matlab is not free. But as Fudan students, we can use it for free (Fudan paid fo
 
 Go to:
 
-- http://kms.fudan.edu.cn
-- Installation guide for Fudan students: http://kms.fudan.edu.cn/matlab/guide.pdf
+- https://zb.fudan.edu.cn
 
 ---
 
