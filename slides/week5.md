@@ -17,7 +17,14 @@ An introduction to deep learning in Python by [Dr. Yi-Xin Liu](http://www.yxliu.
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2024.10.10
+Lecture date: 2025.10.16
+
+---
+
+## Machine Learning
+
+- **Traditional machine learning**: decision trees, random forests, support vector machines, gradient boosting machines, etc.
+- **Deep learning**: Deep learning: neural networks with multiple layers (e.g., CNN, RNN, Transformer, etc.)
 
 ---
 
@@ -26,7 +33,7 @@ Lecture date: 2024.10.10
 
 - [Deep Learning In 5 Minutes | What Is Deep Learning? | Deep Learning Explained Simply | Simplilearn](https://youtu.be/6M5VXKLf4D4) (length: 5:51)
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="deeplearning.mp4">
 </video>
 
@@ -36,7 +43,7 @@ Lecture date: 2024.10.10
 
 - [3Blue1Brown - But what is a neural network? | Chapter 1, Deep learning](https://youtu.be/aircAruvnKk) (length: 19:13)
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="3b1b01.mp4">
 </video>
 
@@ -46,7 +53,7 @@ Lecture date: 2024.10.10
 
 - [3Blue1Brown - Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://youtu.be/IHZwWFHWa-w) (length: 21:00)
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="3b1b02.mp4">
 </video>
 
@@ -56,7 +63,7 @@ Lecture date: 2024.10.10
 
 - [3Blue1Brown - What is backpropagation really doing? | Chapter 3, Deep learning](https://youtu.be/Ilg3gGewQ5U) (length: 13:54)
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="3b1b03.mp4">
 </video>
 
@@ -66,7 +73,7 @@ Lecture date: 2024.10.10
 
 - [3Blue1Brown - Backpropagation calculus | Chapter 4, Deep learning](https://youtu.be/tIeHLnjs5U8) (length: 10:17)
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="3b1b04.mp4">
 </video>
 
@@ -82,14 +89,30 @@ Do the following experiments in [A neural network playgound](http://playground.t
 
 ---
 
+## Neural Network Architectures
+
+- MLP or ANN (Multi-Layer Perceptron)
+- CNN (Convolutional Neural Network)
+- RNN (Recurrent Neural Network)
+- Transformer
+
+<img src="architectures.png" width="30%" style="display:block;margin:auto;">
+
+---
+
 ## Deep Learning with Pytorch
 
 ### Why PyTorch?
 
 PyTorch is currently the most popular deep learning framework not only in Python but all programming languages.
 
-- See the overall trend for PyTorch and other competitors (TensorFlow, JAX, MxNet, Caffe2, MindSpore, etc.) [here](https://paperswithcode.com/trends).
-- Watch the video for the current state of machine learning frameworks [here](https://youtu.be/XGtiCBz2gIg?si=Inth6FVkUQlooN4c).
+Other options
+- TensorFlow
+- JAX
+- Keras
+- Lux.jl (Julia)
+
+Watch the video for the current state of machine learning frameworks [here](https://youtu.be/XGtiCBz2gIg?si=Inth6FVkUQlooN4c).
 
 ---
 
@@ -98,7 +121,7 @@ PyTorch is currently the most popular deep learning framework not only in Python
 - [Introduction to PyTorch](https://youtu.be/IC0_FRiX-sw) (length: 23:22)
 
 
-<video height="500" controls>
+<video height="450" controls style="display:block;margin:auto;">
     <source src="pytorch.mp4">
 </video>
 
@@ -125,11 +148,11 @@ Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb
 ### General Machine Learning
 
 - [scikit-learn](https://scikit-learn.org/stable/): Machine learning in Python
-- Gradient Boost: [XGBoost](https://xgboost.ai/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), [CatBoost](https://catboost.ai/)
+- Boosting: [XGBoost](https://xgboost.ai/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), [CatBoost](https://catboost.ai/)
 - [Kaggle](https://www.kaggle.com/): Largest AI & ML community, competitions, datasets, notebooks, etc.
 - [Hugging Face](https://huggingface.co/): AI community for ML models and datasets
 
 ### LLM
 - [Transformer](https://youtu.be/nzqlFIcCSWQ?si=biww-1EvnNC-OWrA)
 - [Ollama](https://ollama.com/): open-source machine learning models
-- [ChatGPT](https://chatgpt.com/): AI-powered chatbot by OpenAI
+- Popular models: GPT, Gemini, Claude, Deepseek, Qwen
