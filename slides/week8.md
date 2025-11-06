@@ -7,22 +7,37 @@ style: |
     }
 ---
 
+<style>
+section h1 { /* Target the H1 within a slide section */
+      color: Orchid !important;
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 1.4em;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Add a text shadow */
+    }
+section {
+    font-size: 26pt;
+}
+section a {
+      color: orchid !important;
+}
+</style>
+
 <!--
 backgroundColor: #191a2e
-color: skyblue
+color: deepskyblue
 -->
-# Code and Document Management
+# Week 8: Code and Document Management
 
 An introduction to code and document management by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
-This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
+This is a part of the course: <span style=color:gold>Road to Scientific Research: Powerful Computer Applications</span> (XDSY118019.01).
 
-Lecture date: 2024.10.31
+Lecture date: 2025.11.06
 
 ---
 
 <!-- _paginate: true -->
-## Code Management
+# Code Management
 
 Tracking the history of modifications to a code project is extremely important. You can do it manually, like:
 
@@ -32,7 +47,6 @@ mycode_v1.py
 mycode_v2.py
 mycode_v2_with_some_new_implementations.py
 mycode_v3_along_original.py
-mycode_v3_with_some_new_implementations.py
 mycode_v3_with_other_improvements.py
 mycode_GPU.py
 ```
@@ -45,33 +59,34 @@ mycode_20220606.py  mycode_20220707.py  mycode_20220808.py  ...
 
 ---
 
-## Or
+# Or
 
-![](finaldoc.gif)
-
----
-
-### Failure of Manual Management
-
-Soon you will discover that the manual way to track the version of your code is:
-
-- tedious
-- painful
-
-It is also not scalable: when you have multiple files to track, the history of your project quickly become a mess!
+![w:400](finaldoc.gif)
 
 ---
 
-### Version Control System
+# Failure of Manual Management
+
+Soon you will discover that the manual way to track the version of your code:
+
+* **tedious**
+* **painful**
+* **not scalable**: when you have multiple files to track, the history of your project quickly become a mess!
+
+---
+
+# Version Control System
 
 - In modern days, we will use a version control system to do code and document management.
-- **Git** is the most popular version control system.
+- <span style=color:gold>Git</span> is the most popular version control system.
 
-![Git and GitHub](git.png)
+<br />
+
+![w:800 Git and GitHub](git.png)
 
 ---
 
-### Getting Started with Git
+# Getting Started with Git
 
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE) (1:09:13)
 
@@ -81,7 +96,7 @@ It is also not scalable: when you have multiple files to track, the history of y
 
 ---
 
-### Demo and Exercises for Git
+# Demo and Exercises for Git
 
 - Installation
 - Configuration
@@ -94,7 +109,7 @@ Learning material: [Git & GitHub Tutorial for Scientists](https://gitbookdown.da
 
 ---
 
-### Git: Installation
+# Git: Installation
 
 - MacOS: goto [the download page](https://www.git-scm.com/downloads) of git official website.
 - Windows: goto [git for windows](https://github.com/git-for-windows/git) and download the latest version.
@@ -106,7 +121,7 @@ $ git --version
 
 ---
 
-### Git: Configuration
+# Git: Configuration
 
 - Configure via command line:
 
@@ -128,7 +143,7 @@ $ code ~/.gitconfig
 
 ---
 
-### Git: Initialization
+# Git: Initialization
 
 - Create a new Git repository (repo)
 
@@ -139,7 +154,7 @@ $ git init
 
 ---
 
-### Git: Status and Diff
+# Git: Status and Diff
 
 - Check the current status of git
 
@@ -155,7 +170,7 @@ $ git diff README.md
 
 ---
 
-### Git: Staging and Committing
+# Git: Staging and Committing
 
 - Staging
 
@@ -172,7 +187,7 @@ $ git ci -m "First commit."
 
 ---
 
-### Git: Log and Checkout
+# Git: Log and Checkout
 
 - List commit logs
 
@@ -181,7 +196,7 @@ $ git log
 $ git log --oneline
 ```
 
-- Checkout a specific commit: in a state of "detached HEAD", use it carefully.
+- Checkout a specific commit: in a state of "detached HEAD", be careful!
 
 ```bash
 $ git checkout 8eb8716
@@ -196,7 +211,7 @@ $ git checkout v0.3.0
 
 ---
 
-### Git: Branching
+# Git: Branching
 
 - Create and checkout new branch
 
@@ -214,14 +229,13 @@ $ git branch
 
 ```bash
 $ git checkout master
-$ git branch
 $ git checkout a_new_feature
 $ git switch master
 ```
 
 ---
 
-### Git: Merging
+# Git: Merging
 
 - Merge a branch to master
 
@@ -232,7 +246,7 @@ $ git merge a_new_feature
 
 ---
 
-### Github.com
+# Github
 
 The main purpose of [GitHub.com](https://github.com/) is to facilitate the version control and issue tracking aspects of software development.
 
@@ -242,18 +256,18 @@ The main purpose of [GitHub.com](https://github.com/) is to facilitate the versi
 
 ---
 
-### Github.com Service
+# Github Services
 
-- Github.com hosts **Git** repositories (repos).
+- Github.com <span style=color:gold>hosts</span> Git repositories (repos).
 - Projects on GitHub.com can be accessed and managed using the standard Git command-line interface.
 - All standard Git commands work with it.
-- GitHub.com also allows users to browse public repositories on the site.
-- Multiple desktop clients and Git plugins are also available.
-- The site provides social networking-like functions such as feeds, followers, wikis and a social network graph to display how developers work on their versions ("forks") of a repository and what fork (and branch within that fork) is newest.
+- Repo discovery and sharing.
+- Multiple desktop clients and Git plugins
+- social networking-like functions: feeds, followers, wikis and a social network graph of forks.
 
 ---
 
-### Demo and Exercises for Github
+# Demo and Exercises for Github
 
 Goto [Github.com](https://github.com/) and do the following:
 
@@ -268,19 +282,19 @@ Goto [Github.com](https://github.com/) and do the following:
 
 ---
 
-## Reference Manager
+# Reference Manager
 
-[Reference management software](https://en.wikipedia.org/wiki/Reference_management_software) is software for scholars and authors to use for recording and utilizing bibliographic citations (references) as well as managing project references. Once a citation has been recorded, it can be used time and again in generating bibliographies, such as lists of references in scholarly books, articles and essays. The development of reference management packages has been driven by the rapid expansion of scientific literature.
+[Reference management software](https://en.wikipedia.org/wiki/Reference_management_software) is software for scholars and authors to use for recording and utilizing bibliographic citations (references) as well as managing project references. Once a citation has been recorded, it can be used in generating bibliographies, such as lists of references in scholarly books, articles and essays. The development of reference management packages has been driven by the rapid expansion of scientific literature.
 
 Check out a list of [reference managers and a comparison of them](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software).
 
 ---
 
-### Zotero
+# Zotero
 
 [Zotero](https://www.zotero.org/) is, at the most basic level, a reference manager. It is designed to store, manage, and cite bibliographic references, such as books and articles. In Zotero, each of these references constitutes an item. More broadly, Zotero is a powerful tool for collecting and organizing research information and sources.
 
-Note: Zotero is free.
+Note: Zotero is <span style=color:gold>free</span>.
 
 </br>
 
@@ -288,11 +302,11 @@ Note: Zotero is free.
 
 ---
 
-### Mendeley
+# Mendeley
 
-[Mendeley](https://www.mendeley.com/) is a free reference manager that can help you store, organize, note, share and cite references and research data.
+[Mendeley](https://www.mendeley.com/) is a reference manager that can help you store, organize, note, share and cite references and research data.
 
-Note: Zotero is free.
+Note: Mendeley is <span style=color:gold>free</span>.
 
 </br>
 
@@ -300,7 +314,7 @@ Note: Zotero is free.
 
 ---
 
-### Paperpile
+# Paperpile
 
 [Paperpile](https://paperpile.com/?welcome) is a online software for no-fuss reference management on the web. Paperpile enable us manage our research library right in the browser:
 
@@ -308,7 +322,7 @@ Note: Zotero is free.
 - Access PDFs from anywhere
 - Add citations and bibliographies to Google Docs
 
-Note: Paperpile is not free.
+Note: Paperpile is <span style=color:gold>not free</span>.
 
 </br>
 

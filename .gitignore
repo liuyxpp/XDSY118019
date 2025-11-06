@@ -7,3 +7,4 @@ notebooks/catboost_info
 notebooks/catboost_model.dump
 notebooks/model_depth*
 slides/week5_files
+slides/week8_files
