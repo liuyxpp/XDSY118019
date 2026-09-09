@@ -7,31 +7,45 @@ style: |
     }
 ---
 
+<style>
+section h1 { /* Target the H1 within a slide section */
+      color: Orchid !important;
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 1.4em;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Add a text shadow */
+    }
+section {
+    font-size: 26pt;
+}
+section a {
+      color: orchid !important;
+}
+</style>
+
 <!--
 backgroundColor: #191a2e
-color: skyblue
+color: deepskyblue
 -->
-# Introduction to Scientific Computing
+# Introduction to Scientific Computing (2026)
 
 This is an introduction course to the first year undergraduates taught at Fudan University.
 
-- Course: _Road to Scientific Research: Powerful Computer Applications_ （XDSY118019.01）
-- Lecturers: Prof. Yi-Xin Liu
+- Course: <span style=color:gold>Road to Scientific Research: Powerful Computer Applications</span>
+- Course No.: <span style=color:gold>XDSY118019.01</span>
+- Lecturers: <span style=color:gold>Prof. Yi-Xin Liu</span>
 - Schedule: <span style=color:gold>18:30 - 21:05, Thursday</span>
-- Classroom: <span style=color:gold>H2112A</span>
+- Classroom: <span style=color:gold>H2215</span>
 
 ---
 
-## Week 1 (2025.09.11 Thur): Introduction
-- Lecturer: Prof. Yi-Xin Liu
+# Week 1 (2026.09.10 Thur): Introduction
 - Topics
   - Introduction to the syllabus
   - Setup VS Code, Python, and Jupyter Notebook
 
 ---
 
-## Week 2 (2025.09.18 Thur): Python Basics Part 1
-- Lecturer: Prof. Yi-Xin Liu
+# Week 2 (2026.09.17 Thur): Python Basics Part 1
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
 - Topics
@@ -42,8 +56,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 3 (2025.09.25 Thur): Python Basics Part 2
-- Lecturer： Prof. Yi-Xin Liu
+# Week 3 (2026.09.24 Thur): Python Basics Part 2
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
 - Topics
@@ -52,8 +65,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 4 (2025.10.09 Thur): Scientific Computing in Python
-- Lecturer: Prof. Yi-Xin Liu
+# Week 4 (2026.10.08 Thur): Scientific Computing in Python
 - Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](notebooks/02_python_scientific_computing.ipynb).
 - Topics
@@ -64,12 +76,13 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 5 (2025.10.16 Thur): Introduction to Deep Learning
-- Lecturer: Prof. Yi-Xin Liu
+# Week 5 (2026.10.15 Thur): Introduction to Deep Learning
 - Materials
   - [Slides](slides/week5.html)
+  <!--
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
+  -->
   - Jupyter notebook [03_python_deep_learning.ipynb](notebooks/03_python_deep_learning.ipynb)
   - Jupyter notebook [catboost_tutorial.ipynb](notebooks/catboost_tutorial.ipynb)
 - Topics
@@ -79,8 +92,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 6 (2025.10.23 Thur): Matlab and Mathematica
-- Lecturer: Prof. Yi-Xin Liu
+# Week 6 (2026.10.22 Thur): Matlab and Mathematica
 - Materials
   - [Slides for Matlab](slides/week6_matlab.html)
   - [Slides for Mathematica](slides/week6_mathematica.html)
@@ -90,13 +102,14 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 7 (2025.10.30 Thur): Plotting and Data Visualization
-- Lecturer: Prof. Yi-Xin Liu
+# Week 7 (2026.10.29 Thur): Plotting and Data Visualization
 - Materials:
   - [Slides](slides/week7.html)
   - Jupyter notebook: [04_python_plotting.ipynb](notebooks/04_python_plotting.ipynb)
   - Jupyter notebook: [05_python_images.ipynb](notebooks/05_python_images.ipynb)
+  <!--
   - Matlab script: [Rendering volume](scripts/visual3d_lyx.m)
+  -->
 - Topics:
   - `matplotlib` for line arts and 2D graphics.
   - Matlab for 3D visualization.
@@ -104,8 +117,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 8 (2025.11.06 Thur): Code and Document Management
-- Lecturer: Prof. Yi-Xin Liu
+# Week 8 (2026.11.05 Thur): Code and Document Management
 - Materials
   - [Slides](slides/week8.html)
 - Topics:
@@ -115,8 +127,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 9 (2025.11.13 Thur): Documenting Tools
-- Lecturer: Prof. Yi-Xin Liu
+# Week 9 (2026.11.12 Thur): Documenting Tools
 - Materials
   - [Slides for Markdown, Obsidian, and Marp](slides/week9_markdown.html)
   - [Slides for LaTeX](slides/week9_latex.html)
@@ -129,13 +140,13 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-## Week 10 (2025.11.20 Thur)
+# Week 10 (2025.11.19 Thur)
 
-Q&A Session
+- Take-home project.
 
 ---
 
-## Week 11 (2025.11.27 Thur): Final Exam
+# Week 11 (2025.11.26 Thur): Final Exam
 
 TBA
 

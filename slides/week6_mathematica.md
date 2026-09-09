@@ -17,7 +17,7 @@ An introduction to Mathematica by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fu
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2025.10.23
+Lecture date: 2026.10.22
 
 ---
 

@@ -7,45 +7,65 @@ style: |
     }
 ---
 
+<style>
+section h1 { /* Target the H1 within a slide section */
+      color: Orchid !important;
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 1.4em;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Add a text shadow */
+    }
+section {
+    font-size: 26pt;
+}
+section a {
+      color: orchid !important;
+}
+</style>
+
 <!--
 backgroundColor: #191a2e
-color: skyblue
+color: deepskyblue
 -->
-# Documenting Tools: LaTeX & Typst
+# Week 9: Documenting Tools - LaTeX & Typst
 
 An introduction to LaTeX by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
-This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
+This is a part of the course: <span style=color:gold>Road to Scientific Research: Powerful Computer Applications</span> (XDSY118019.01).
 
-Lecture date: 2024.11.07
+Lecture date: 2025.11.13
 
 ---
 
 <!-- _paginate: true -->
-## What is LaTeX?
+# What is LaTeX?
 
-[LaTeX](https://www.latex-project.org/), which is pronounced /Lah-tech/ or /Lay-tech/, is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation.
+[LaTeX](https://www.latex-project.org/), which is pronounced /Lah-tech/ or /Lay-tech/, is a high-quality typesetting system; it includes features designed for the production of technical and <span style=color:gold>scientific</span> documentation.
 
-- LaTeX is the <span style=color:gold>de facto standard</span> for the communication and publication of scientific documents.
-- LaTeX is available as <span style=color:gold>free software</span>.
-- LaTeX file ends with extension `.tex`.
-
----
-
-### LaTeX Features
-
-- Typesetting journal articles, technical reports, books, and slide presentations.
-- Control over large documents containing sectioning, cross-references, tables and figures.
-- Typesetting of <span style=color:gold>complex mathematical formulas</span>.
-- Advanced typesetting of mathematics with AMS-LaTeX.
-- Automatic generation of <span style=color:gold>bibliographies</span> and indexes.
-- Multi-lingual typesetting.
-- Inclusion of artwork, and process or spot color.
-- Using PostScript or Metafont fonts.
+* LaTeX is the <span style=color:gold>de facto standard</span> for the communication and publication of scientific documents.
+* LaTeX is available as <span style=color:gold>free software</span>.
+* LaTeX file ends with extension <span style=color:gold>`.tex`</span>.
 
 ---
 
-### Getting started with LaTeX
+# LaTeX Features
+
+* Typesetting journal articles, technical reports, books, and slide presentations.
+* Control over large documents containing sectioning, cross-references, tables and figures.
+* Typesetting of <span style=color:gold>complex mathematical formulas</span>.
+* Advanced typesetting of mathematics with AMS-LaTeX.
+
+---
+
+# LaTeX Features: Continued
+
+* Automatic generation of <span style=color:gold>bibliographies</span> and indexes.
+* Multi-lingual typesetting.
+* Inclusion of artwork, and process or spot color.
+* Using PostScript or Metafont fonts.
+
+---
+
+# Getting started with LaTeX
 
 - [Intro to LaTeX : Learn to write beautiful math equations](https://youtu.be/Jp0lPj2-DQA) (19:08)
 
@@ -57,7 +77,7 @@ Other videos in [this Youtube playlist](https://youtube.com/playlist?list=PLHXZ9
 
 ---
 
-### Demo and exercises of LaTeX
+# Demo and exercises of LaTeX
 
 - Go to [Overleaf](https://www.overleaf.com/) and create an account.
 - Follow the demonstration:
@@ -69,7 +89,7 @@ In fact, LaTeX can be edited in any editors. You can use VS Code + LaTeX extensi
 
 ---
 
-## Typst
+# Typst
 
 [Typst](https://typst.app/) is a new markup-based typesetting system for the <span style=color:gold>sciences</span>. It is designed to be an alternative both to advanced tools like LaTeX and simpler tools like Word and Google Docs. The goal of Typst is to build a typesetting tool that is highly capable and a pleasure to use.
 
@@ -79,21 +99,19 @@ In fact, LaTeX can be edited in any editors. You can use VS Code + LaTeX extensi
 
 ---
 
-### Why Typst?
+# Why Typst?
 
-As compared to LaTeX, it
-
-- is easy to learn and use.
-- previews your changes instantly.
-- provides clear, understandable error messages.
-- has a consistent styling system for configuring everything from fonts and margins to the look of headings and lists.
-- uses familiar programming constructs instead of hard-to-understand macros.
-- has a very small executable size.
-- is free and open source.
+* is easy to learn and use.
+* previews your changes instantly.
+* provides clear, understandable error messages.
+* has a consistent styling system for configuring everything from fonts and margins to the look of headings and lists.
+* uses familiar programming constructs instead of hard-to-understand macros.
+* has a very small executable size.
+* is free and open source.
 
 ---
 
-### Getting started with Typst
+# Getting started with Typst
 
 - [Tutorial](https://typst.app/docs/tutorial/)
 
@@ -111,7 +129,7 @@ $ lim_(x->oo) 1/x = 0 $
 
 ---
 
-### Demo and exercises of Typst
+# Demo and exercises of Typst
 
 - Install VS Code extension: `Tinymist Typst`.
 - Or go to the webapp (sign up required): [https://typst.app/](https://typst.app/).
