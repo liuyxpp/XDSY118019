@@ -45,7 +45,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-# Week 2 (2026.09.17 Thur): Python Basics Part 1
+# Week 2 (2026.09.17 Thur): Python Basics
 - Materials
   - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
 - Topics
@@ -53,19 +53,12 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - How to learn programming
   - Why [Python](https://www.python.org/)?
   - Keyword, literals, variables, operators, control flow
-
----
-
-# Week 3 (2026.09.24 Thur): Python Basics Part 2
-- Materials
-  - Jupyter notebook [01_python_basics.ipynb](notebooks/01_python_basics.ipynb).
-- Topics
   - Data structures, function, class, module
-  - Coding sessions
+- Coding sessions
 
 ---
 
-# Week 4 (2026.10.08 Thur): Scientific Computing in Python
+# Week 3 (2026.09.24 Thur): Scientific Computing in Python
 - Materials
   - Jupyter notebook [02_python_scientific_computing.ipynb](notebooks/02_python_scientific_computing.ipynb).
 - Topics
@@ -76,7 +69,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 ---
 
-# Week 5 (2026.10.15 Thur): Introduction to Deep Learning
+# Week 4 (2026.10.08 Thur): Introduction to Deep Learning
 - Materials
   - [Slides](slides/week5.html)
   <!--
@@ -89,6 +82,19 @@ This is an introduction course to the first year undergraduates taught at Fudan 
   - Introduction to deep learning
   - Deep learning in Python with [PyTorch](https://pytorch.org/)
   - Coding session
+
+---
+
+# Week 5 (2026.10.15 Thur): LLM & AI Agent
+- Materials
+  - [Slides](slides/week5.html)
+- Topics
+  - Transformers
+  - LLM
+  - Prompt engineering
+  - MCP
+  - Agent skills
+  - AI agents
 
 ---
 
