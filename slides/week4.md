@@ -11,20 +11,20 @@ style: |
 backgroundColor: #191a2e
 color: skyblue
 -->
-# Week 5: Introduction to Deep Learning in Python
+# Week 4: Introduction to Deep Learning in Python
 
 An introduction to deep learning in Python by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2025.10.16
+Lecture date: 2026.10.08
 
 ---
 
 ## Machine Learning
 
 - **Traditional machine learning**: decision trees, random forests, support vector machines, gradient boosting machines, etc.
-- **Deep learning**: Deep learning: neural networks with multiple layers (e.g., CNN, RNN, Transformer, etc.)
+- **Deep learning**: Deep learning: neural networks with multiple layers (e.g., CNN, RNN, GNN, Transformer, etc.)
 
 ---
 
@@ -91,9 +91,10 @@ Do the following experiments in [A neural network playgound](http://playground.t
 
 ## Neural Network Architectures
 
-- MLP or ANN (Multi-Layer Perceptron)
+- MLP (Multi-Layer Perceptron)
 - CNN (Convolutional Neural Network)
 - RNN (Recurrent Neural Network)
+- GNN (Graph Neural Network)
 - Transformer
 
 <img src="architectures.png" width="30%" style="display:block;margin:auto;">
@@ -135,9 +136,11 @@ Watch the video for the current state of machine learning frameworks [here](http
 
 ---
 
-## A Simple Walkthrough
+## Walkthrough
 
-Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb).
+- [03_MLP_demo.ipynb](../notebooks/03_MLP_demo.ipynb).
+- [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb).
+- [03_PINN_demo.ipynb](../notebooks/03_PINN_demo.ipynb).
 
 ---
 
@@ -154,5 +157,5 @@ Go to [03_python_deep_learning.ipynb](../notebooks/03_python_deep_learning.ipynb
 
 ### LLM
 - [Transformer](https://youtu.be/nzqlFIcCSWQ?si=biww-1EvnNC-OWrA)
-- [Ollama](https://ollama.com/): open-source machine learning models
-- Popular models: GPT, Gemini, Claude, Deepseek, Qwen
+- Popular models: GPT, Claude, Gemini, Deepseek, Qwen, GLM
+- Topic for next week.

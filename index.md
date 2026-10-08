@@ -71,7 +71,7 @@ This is an introduction course to the first year undergraduates taught at Fudan 
 
 # Week 4 (2026.10.08 Thur): Introduction to Deep Learning
 - Materials
-  - [Slides](slides/week5.html)
+  - [Slides](slides/week4.html)
   <!--
   - Deep learning videos: [3Blue1Brown neural networks series](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - PyTorch videos: [PyTorch beginner series](https://youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
