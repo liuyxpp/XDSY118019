@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E1: Revise a Prompt and Check Its Evidence</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#191a2e;color:#d5e8f4;font:19px/1.7 system-ui,Arial,sans-serif}
+header,main,footer{max-width:1000px;margin:auto;padding:24px 32px}header{border-bottom:1px solid #465069;display:flex;flex-wrap:wrap;gap:24px;align-items:center}
+header strong{color:#87ceeb;margin-right:auto}nav{display:flex;gap:22px}a{color:#bcb0ed;text-underline-offset:4px}a:focus-visible{outline:3px solid #f2cc78;outline-offset:4px}
+h1,h2,h3{color:#87ceeb;line-height:1.25}h1{font-size:38px;margin-top:18px}h2{font-size:28px;margin-top:42px}h3{font-size:23px;margin-top:28px}strong{color:#f2cc78}
+li{margin:10px 0}code{background:#272c45;padding:2px 5px;border-radius:3px;font-size:.9em;overflow-wrap:anywhere}pre{padding:20px;background:#111827;white-space:pre-wrap;overflow-wrap:anywhere}pre code{padding:0;background:none}
+blockquote{margin:22px 0;padding:8px 22px;border-left:3px solid #f2cc78;background:#20243a}table{width:100%;border-collapse:collapse;font-size:16px}th,td{text-align:left;border-bottom:1px solid #465069;padding:12px;overflow-wrap:anywhere}th{color:#f2cc78}footer{font-size:15px;color:#a5b7cc;border-top:1px solid #465069}
+@media(max-width:620px){header,main,footer{padding:18px}body{font-size:17px}h1{font-size:30px}nav{gap:16px}table{font-size:14px}th,td{padding:7px}}
+@media print{:root{color-scheme:light}body{background:white;color:#172034;font-size:11pt}header,footer{display:none}main{max-width:none;padding:0}h1,h2,h3,strong,a{color:#172034}blockquote,code,pre{background:#f2f4f8}h2,h3{break-after:avoid}pre,blockquote{break-inside:avoid}}
+</style></head><body>
+<header><strong>Week 5 · Student Practice</strong><nav aria-label="Practice navigation"><a href="index.html">Start</a><a href="E1.html">Exercise 1</a><a href="E2.html">Optional Exercise 2</a></nav></header>
+<main><h1>E1: Revise a Prompt and Check Its Evidence</h1>
+<h2>Learning Goal</h2>
+<p>Compare a vague prompt with a prompt you revise yourself, then check whether the response is supported by the supplied evidence.</p>
+<p>E1 is <strong>plan only</strong>. This means the requested response may describe steps, inputs, rules, outputs, and checks. It must not run code, calculate numerical results, invent terminal output, or claim that anything was executed or verified.</p>
+<h2>Complete Input Data</h2>
+<p>Use exactly this dataset in both attempts. The same data are also available in <a download href="motion.csv">motion.csv</a>.</p>
+<pre><code class="language-csv">time_s,position_cm
+0,1
+1,3
+2,
+3,7
+4,9
+5,11
+6,13
+</code></pre>
+<h2>Complete Evidence Notes</h2>
+<p>Use all four notes in both attempts. The same notes are also available in <a href="motion_notes.html">motion_notes.md</a>.</p>
+<ul>
+<li><strong>N1:</strong> <code>time_s</code> is time in s. <code>position_cm</code> is position in cm. Position includes a nonzero initial coordinate and must not be mislabeled as distance traveled from the origin.</li>
+<li><strong>N2:</strong> The position at <code>time_s=2</code> is missing. The primary analysis excludes this row and records the reason. It does not fill the value with zero or interpolate it.</li>
+<li><strong>N3:</strong> Fit the remaining valid rows with an ordinary least-squares line that includes an intercept. Report velocity and initial position. Convert position from cm to m in the final plot.</li>
+<li><strong>N4:</strong> Temperature, measurement uncertainty, instrument details, and real experimental conditions were not provided. None of them can be inferred from these materials.</li>
+</ul>
+<h2>Choose One Participation Branch</h2>
+<h3>Branch A: Two Chat Attempts</h3>
+<ol>
+<li>
+<p>Download or copy the blank <a download href="prompt-check-template.md">prompt-check template</a> and save your working copy as <code>prompt-check.md</code>.</p>
+</li>
+<li>
+<p>Start a fresh chat. Supply the complete CSV and N1–N4 above.</p>
+</li>
+<li>
+<p>Send this initial prompt exactly:</p>
+<blockquote>
+<p>Help me analyze the data. Propose an analysis plan only. Do not execute code or claim that any result has been calculated or verified.</p>
+</blockquote>
+</li>
+<li>
+<p>Paste the full initial prompt and full response into your template.</p>
+</li>
+<li>
+<p>Start another fresh chat. Use the same visible model and the same settings where possible. Supply the same complete CSV and N1–N4 again.</p>
+</li>
+<li>
+<p>Write your own revised prompt. Do not copy a worked prompt from another group. Your prompt must explicitly require the response to address every item in the revision checklist below, cite N1–N4, and remain plan only.</p>
+</li>
+<li>
+<p>Paste the full revised prompt and full response into your template.</p>
+</li>
+<li>
+<p>Exchange the completed template with a partner and perform the four evidence checks.</p>
+</li>
+<li>
+<p>Record every correction before submitting <code>prompt-check.md</code>.</p>
+</li>
+</ol>
+<p>Separate fresh chats reduce the chance that the second reply silently depends on the first conversation. Keeping the model and settings the same where possible makes the prompt revision the main planned difference. This comparison still does not prove that one prompting method is generally better.</p>
+<h3>Branch B: No Chat Account</h3>
+<ol>
+<li>Download or copy the blank <a download href="prompt-check-template.md">prompt-check template</a> and select the offline branch.</li>
+<li>Open <a href="offline-response.html">offline-response.md</a>. It contains one teacher-written initial prompt and one intentionally unreviewed illustrative reply. It is not an actual model run.</li>
+<li>Copy that initial prompt and reply into Attempt 1 of the template.</li>
+<li>Check the reply against N1–N4. Record omissions or unsupported claims.</li>
+<li>Write your own revised prompt in Attempt 2. It must satisfy the revision checklist and remain plan only.</li>
+<li>Write <code>Not generated — offline branch</code> in the Attempt 2 response field. Do not invent a second model response.</li>
+<li>Ask a partner to review whether your revised prompt explicitly requires all four evidence items. Record corrections and submit <code>prompt-check.md</code>.</li>
+</ol>
+<h2>Revision Checklist</h2>
+<p>Your revised prompt must require the planned response to:</p>
+<ol>
+<li>distinguish time in s from position in cm, preserve the meaning of position, and state the required cm-to-m conversion for the final plot <strong>[N1]</strong>;</li>
+<li>identify the missing position at <code>t = 2 s</code>, exclude that row, record why, and forbid zero filling or invented interpolation <strong>[N2]</strong>;</li>
+<li>specify an ordinary least-squares line with an intercept and name velocity and initial position as outputs with units <strong>[N3]</strong>;</li>
+<li>state that temperature, measurement uncertainty, instrument details, and real experimental conditions are not provided and must not be inferred <strong>[N4]</strong>;</li>
+<li>cite the supporting note after each conclusion; and</li>
+<li>produce a plan only, with no code execution, calculated values, or verification claims.</li>
+</ol>
+<h2>Submission</h2>
+<p>Submit one completed <code>prompt-check.md</code> file based on the <a download href="prompt-check-template.md">blank template</a>. No script, plot, report, or run log is required for E1.</p>
+<p>Return to the <a href="index.html">student start page</a>, or continue to the optional <a href="E2.html">E2 exercise</a>.</p>
+</main><footer>LLMs and AI Agents · XDSY118019</footer></body></html>

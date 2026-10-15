@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Motion Data Notes</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#191a2e;color:#d5e8f4;font:19px/1.7 system-ui,Arial,sans-serif}
+header,main,footer{max-width:1000px;margin:auto;padding:24px 32px}header{border-bottom:1px solid #465069;display:flex;flex-wrap:wrap;gap:24px;align-items:center}
+header strong{color:#87ceeb;margin-right:auto}nav{display:flex;gap:22px}a{color:#bcb0ed;text-underline-offset:4px}a:focus-visible{outline:3px solid #f2cc78;outline-offset:4px}
+h1,h2,h3{color:#87ceeb;line-height:1.25}h1{font-size:38px;margin-top:18px}h2{font-size:28px;margin-top:42px}h3{font-size:23px;margin-top:28px}strong{color:#f2cc78}
+li{margin:10px 0}code{background:#272c45;padding:2px 5px;border-radius:3px;font-size:.9em;overflow-wrap:anywhere}pre{padding:20px;background:#111827;white-space:pre-wrap;overflow-wrap:anywhere}pre code{padding:0;background:none}
+blockquote{margin:22px 0;padding:8px 22px;border-left:3px solid #f2cc78;background:#20243a}table{width:100%;border-collapse:collapse;font-size:16px}th,td{text-align:left;border-bottom:1px solid #465069;padding:12px;overflow-wrap:anywhere}th{color:#f2cc78}footer{font-size:15px;color:#a5b7cc;border-top:1px solid #465069}
+@media(max-width:620px){header,main,footer{padding:18px}body{font-size:17px}h1{font-size:30px}nav{gap:16px}table{font-size:14px}th,td{padding:7px}}
+@media print{:root{color-scheme:light}body{background:white;color:#172034;font-size:11pt}header,footer{display:none}main{max-width:none;padding:0}h1,h2,h3,strong,a{color:#172034}blockquote,code,pre{background:#f2f4f8}h2,h3{break-after:avoid}pre,blockquote{break-inside:avoid}}
+</style></head><body>
+<header><strong>Week 5 · Student Practice</strong><nav aria-label="Practice navigation"><a href="index.html">Start</a><a href="E1.html">Exercise 1</a><a href="E2.html">Optional Exercise 2</a></nav></header>
+<main><h1>Motion Data Notes</h1>
+<blockquote>
+<p>These are synthetic classroom data. They do not represent a real experiment and cannot establish a physical law.</p>
+</blockquote>
+<ul>
+<li><strong>N1:</strong> <code>time_s</code> is time in s. <code>position_cm</code> is position in cm. Position includes a nonzero initial coordinate and must not be mislabeled as distance traveled from the origin.</li>
+<li><strong>N2:</strong> The position at <code>time_s=2</code> is missing. The primary analysis excludes this row and records the reason. It does not fill the value with zero or interpolate it.</li>
+<li><strong>N3:</strong> Fit the remaining valid rows with an ordinary least-squares line that includes an intercept. Report velocity and initial position. Convert position from cm to m in the final plot.</li>
+<li><strong>N4:</strong> Temperature, measurement uncertainty, instrument details, and real experimental conditions were not provided. None of them can be inferred from these materials.</li>
+</ul>
+</main><footer>LLMs and AI Agents · XDSY118019</footer></body></html>

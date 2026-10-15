@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2: Execute and Verify an Analysis</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#191a2e;color:#d5e8f4;font:19px/1.7 system-ui,Arial,sans-serif}
+header,main,footer{max-width:1000px;margin:auto;padding:24px 32px}header{border-bottom:1px solid #465069;display:flex;flex-wrap:wrap;gap:24px;align-items:center}
+header strong{color:#87ceeb;margin-right:auto}nav{display:flex;gap:22px}a{color:#bcb0ed;text-underline-offset:4px}a:focus-visible{outline:3px solid #f2cc78;outline-offset:4px}
+h1,h2,h3{color:#87ceeb;line-height:1.25}h1{font-size:38px;margin-top:18px}h2{font-size:28px;margin-top:42px}h3{font-size:23px;margin-top:28px}strong{color:#f2cc78}
+li{margin:10px 0}code{background:#272c45;padding:2px 5px;border-radius:3px;font-size:.9em;overflow-wrap:anywhere}pre{padding:20px;background:#111827;white-space:pre-wrap;overflow-wrap:anywhere}pre code{padding:0;background:none}
+blockquote{margin:22px 0;padding:8px 22px;border-left:3px solid #f2cc78;background:#20243a}table{width:100%;border-collapse:collapse;font-size:16px}th,td{text-align:left;border-bottom:1px solid #465069;padding:12px;overflow-wrap:anywhere}th{color:#f2cc78}footer{font-size:15px;color:#a5b7cc;border-top:1px solid #465069}
+@media(max-width:620px){header,main,footer{padding:18px}body{font-size:17px}h1{font-size:30px}nav{gap:16px}table{font-size:14px}th,td{padding:7px}}
+@media print{:root{color-scheme:light}body{background:white;color:#172034;font-size:11pt}header,footer{display:none}main{max-width:none;padding:0}h1,h2,h3,strong,a{color:#172034}blockquote,code,pre{background:#f2f4f8}h2,h3{break-after:avoid}pre,blockquote{break-inside:avoid}}
+</style></head><body>
+<header><strong>Week 5 · Student Practice</strong><nav aria-label="Practice navigation"><a href="index.html">Start</a><a href="E1.html">Exercise 1</a><a href="E2.html">Optional Exercise 2</a></nav></header>
+<main><h1>E2: Execute and Verify an Analysis</h1>
+<p>E2 is an optional extension. Complete E1 first so that your data rules are explicit before you write or run code.</p>
+<h2>Goal</h2>
+<p>Write and execute your own reproducible analysis of <a download href="motion.csv">motion.csv</a> using the rules in <a href="motion_notes.html">motion_notes.md</a>. Produce evidence that distinguishes code written from code actually run.</p>
+<p>This package does not include a starter script or numerical answer key.</p>
+<h2>Choose an Execution Path</h2>
+<h3>Agent Path</h3>
+<p>Give the Agent this student folder as its working directory. Ask it to read the data and notes, write the required files, run the script, and preserve the actual command and output. The optional <code>AGENTS.md</code> and <code>skills/analyze-motion/SKILL.md</code> files show project instructions that you may inspect and edit. Their presence does not prove that the Agent read them.</p>
+<p>After the Agent reports completion, open every output and inspect the run log yourself. A natural-language “done” message is not execution evidence.</p>
+<h3>Chat-Assisted Path</h3>
+<p>Ask a chat model to help you design or review a script. Save the code as <code>analysis.py</code>, then run it yourself in a local Python environment. Record your actual command and terminal output. Code shown in chat has not been executed unless you run it.</p>
+<h3>Local, No-AI Path</h3>
+<p>Write <code>analysis.py</code> yourself and run it in a local Python environment. The analysis rules and required outputs are the same as in the other paths.</p>
+<p>If you have no account and no local Python environment, complete only the offline branch of E1. There is no simulated or teacher-supplied E2 run to claim as your own.</p>
+<h2>Analysis Requirements</h2>
+<p>Your script must:</p>
+<ol>
+<li>read <code>motion.csv</code> rather than embedding calculated answers;</li>
+<li>identify and exclude rows whose position is missing, and record the reason;</li>
+<li>preserve time in seconds and convert valid position values from cm to m;</li>
+<li>fit an ordinary least-squares straight line that includes an intercept;</li>
+<li>report the fitted velocity and initial position with units;</li>
+<li>create a plot of the valid data and fitted line with axis labels and units; and</li>
+<li>perform transparent checks that you can explain, such as row accounting, finite fitted values, expected output files, and correct plot units.</li>
+</ol>
+<p>Do not infer temperature, measurement uncertainty, instrument details, or real experimental conditions. Do not replace the missing position with zero or an invented value.</p>
+<h2>Required E2 Outputs</h2>
+<p>Save all four files in your working folder:</p>
+<ul>
+<li><code>analysis.py</code> — your reproducible source code;</li>
+<li><code>motion.png</code> — the plotted valid data and fitted line, with units;</li>
+<li><code>report.md</code> — your completed <a download href="analysis-report-template.md">analysis report template</a>; and</li>
+<li><code>run-log.txt</code> — the actual command, standard output, standard error, and exit status from your run.</li>
+</ul>
+<p>If execution fails, preserve the real error in <code>run-log.txt</code> and describe the blocker in <code>report.md</code>. Do not invent successful output.</p>
+<h2>Verification Before Submission</h2>
+<ul>
+<li>Open <code>motion.png</code> and check that the data, line, and axis units are visible.</li>
+<li>Confirm that <code>report.md</code> agrees with the files and terminal output.</li>
+<li>Confirm that every reported numerical result came from the executed script.</li>
+<li>Explain which source note supports each data-handling decision.</li>
+<li>State what you checked and what remains unknown.</li>
+</ul>
+<p>The optional <code>memory/handoff-template.md</code> file can record verified state if you continue later. It is a visible task record, not hidden model reasoning.</p>
+<p>Return to the <a href="index.html">student start page</a>.</p>
+</main><footer>LLMs and AI Agents · XDSY118019</footer></body></html>
