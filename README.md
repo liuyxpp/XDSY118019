@@ -24,6 +24,8 @@ Marp is used to prepare the slides. The slides are written in Markdown and rende
 
 To render the slides, you need to install Marp for VS Code. Then, open the markdown file in VS Code and press `Ctrl + Shift + P` to open the command palette. Type `Marp: Export slide deck` and select `HTML slide deck`.
 
+For the MATLAB deck, enable HTML when exporting, for example with `marp slides/week6_matlab.md --html -o slides/week6_matlab.html`. Keep `slides/matlab-code.js` beside the exported HTML when publishing or sharing. It provides line numbers and copy buttons; PDF exports are static.
+
 ## Jupyter Notebook Preparation
 
 Jupyter notebook is used to prepare most of the course materials. The notebooks are stored in the `notebooks` folder.
