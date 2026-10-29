@@ -7,21 +7,57 @@ style: |
     }
 ---
 
+<style>
+section h1 { /* Target the H1 within a slide section */
+      color: Orchid !important;
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 1.4em;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Add a text shadow */
+    }
+section {
+    font-size: 24pt;
+}
+section a {
+      color: orchid !important;
+}
+.image-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.image-pair > img {
+  width: 100%;
+  min-width: 0;
+  height: 420px;
+  object-fit: contain;
+}
+</style>
+
 <!--
 backgroundColor: #191a2e
-color: skyblue
+color: deepskyblue
 -->
-# Plotting and Data Visualization
+# Week7: Plotting and Data Visualization
 
 An introduction to plotting and data visualization by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan University (lyx@fudan.edu.cn).
 
 This is a part of the course: *Road to Scientific Research: Powerful Computer Applications* (XDSY118019.01).
 
-Lecture date: 2025.10.30
+Lecture date: 2026.10.29
 
 ---
 
-<!-- _paginate: true -->
+## Which One Is Publication Ready?
+
+<div class="image-pair">
+  <img src="Figure4-default.svg" alt="">
+  <img src="Figure4.svg" alt="">
+</div>
+
+---
+
+<!-- paginate: true -->
 ## Plotting in Python
 
 `matplotlib` is the **goto** package for creating 2D graphics in Python.
