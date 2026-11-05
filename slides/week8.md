@@ -20,6 +20,18 @@ section {
 section a {
       color: orchid !important;
 }
+.image-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.image-pair > img {
+  width: 100%;
+  min-width: 0;
+  height: 350px;
+  object-fit: contain;
+}
 </style>
 
 <!--
@@ -32,11 +44,11 @@ An introduction to code and document management by [Dr. Yi-Xin Liu](http://www.y
 
 This is a part of the course: <span style=color:gold>Road to Scientific Research: Powerful Computer Applications</span> (XDSY118019.01).
 
-Lecture date: 2025.11.06
+Lecture date: 2026.11.05
 
 ---
 
-<!-- _paginate: true -->
+<!-- paginate: true -->
 # Code Management
 
 Tracking the history of modifications to a code project is extremely important. You can do it manually, like:
@@ -61,7 +73,7 @@ mycode_20220606.py  mycode_20220707.py  mycode_20220808.py  ...
 
 # Or
 
-![w:400](finaldoc.gif)
+![w:350](finaldoc.gif)
 
 ---
 
@@ -78,11 +90,26 @@ Soon you will discover that the manual way to track the version of your code:
 # Version Control System
 
 - In modern days, we will use a version control system to do code and document management.
-- <span style=color:gold>Git</span> is the most popular version control system.
+- Centralized vs. Distributed
 
-<br />
+<div class="image-pair">
+  <img src="centralized.png" alt="Centralized">
+  <img src="distributed.png" alt="Distributed">
+</div>
 
-![w:800 Git and GitHub](git.png)
+---
+
+# Why Git?
+
+<span style=color:gold>Git</span> is the most popular version control system.
+
+- Free
+- Open source
+- Super Fast
+- Scalable
+- Cheap Branching/Merging
+
+![w:500 Git and GitHub](git.png)
 
 ---
 
@@ -90,7 +117,7 @@ Soon you will discover that the manual way to track the version of your code:
 
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE) (1:09:13)
 
-<video height="500" controls>
+<video height="450" controls>
     <source src="git.mp4">
 </video>
 
@@ -140,6 +167,12 @@ $ git config --global -e
 # or
 $ code ~/.gitconfig
 ```
+
+---
+
+# Git: Staging Area
+
+![h:400 Staging Area](staging.png)
 
 ---
 
@@ -243,6 +276,24 @@ $ git switch master
 $ git checkout master
 $ git merge a_new_feature
 ```
+
+---
+
+# Git: .gitignore
+
+A gitignore file, `.gitignore`, specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
+
+```python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+# C extensions
+*.so
+# And so on ...
+```
+
+Templates: [github.com/github/gitignore](https://github.com/github/gitignore)
 
 ---
 
