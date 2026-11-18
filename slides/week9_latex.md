@@ -32,11 +32,11 @@ An introduction to LaTeX by [Dr. Yi-Xin Liu](http://www.yxliu.group) at Fudan Un
 
 This is a part of the course: <span style=color:gold>Road to Scientific Research: Powerful Computer Applications</span> (XDSY118019.01).
 
-Lecture date: 2025.11.13
+Lecture date: 2026.11.12
 
 ---
 
-<!-- _paginate: true -->
+<!-- paginate: true -->
 # What is LaTeX?
 
 [LaTeX](https://www.latex-project.org/), which is pronounced /Lah-tech/ or /Lay-tech/, is a high-quality typesetting system; it includes features designed for the production of technical and <span style=color:gold>scientific</span> documentation.

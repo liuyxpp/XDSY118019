@@ -34,11 +34,11 @@ An introduction to Markdown and related software
 
 This is a part of the course: <span style="color:gold">Road to Scientific Research: Powerful Computer Applications</span> (XDSY118019.01).
 
-Lecture date: 2025.11.13
+Lecture date: 2026.11.12
 
 ---
 
-<!-- _paginate: true -->
+<!-- paginate: true -->
 # What is Markdown?
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a **lightweight markup language** for creating formatted text using a **plain-text** editor.
@@ -57,6 +57,7 @@ Lecture date: 2025.11.13
 * Static site generators (Jekyll, etc.)
 * Note taking software (Obsidian, etc.)
 * Slideshow (Marp, etc.)
+* AI: AGENTS.md, SKILL.md, generated texts, etc.
 
 ---
 
